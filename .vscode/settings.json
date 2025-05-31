@@ -1,0 +1,13 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  // Use the typescript version located in node_modules to make errors appear in vscode
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Save actions
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true
+}
